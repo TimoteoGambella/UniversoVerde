@@ -1,0 +1,178 @@
+@use 'colorGeneral';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.principal-color {
+    color: colorGeneral.$colorPrincipal;
+}
+
+.bgColor {
+    background-color: colorGeneral.$colorPrincipal;
+}
+
+.d-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.d-flex-align-center {
+    display: flex;
+    align-items: center;
+}
+
+.d-flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d-flex-column-align- {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d-flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-col-le {
+    display: flex;
+    flex-direction: column;
+}
+
+.full {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-gradient-large {
+    height: 100%;
+    padding-bottom: 65px;
+    background-attachment: fixed;
+    background: colorGeneral.$backgroundGradientPrincipal
+}
+
+.bg-gradient-small {
+    background: colorGeneral.$backgroundGradientPrincipal
+}
+
+.br-13 {
+    border-radius: 13px;
+}
+
+.br-16 {
+    border-radius: 16px;
+}
+
+.font-w-400 {
+    font-weight: 400;
+}
+
+.font-w-500 {
+    font-weight: 500;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.txtDeco {
+    text-decoration: none;
+}
+
+.marTop-30 {
+    padding-top: 30px;
+}
+
+.shadow-025 {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.principal-button {
+    padding: 0px 16px;
+    background: colorGeneral.$colorPrincipal;
+    border-radius: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.25px;
+    color: #FFFFFF;
+    width: 158px;
+    min-height: 53px;
+    text-decoration: none;
+    border: none;
+    z-index: 1;
+    margin: 10px 0 33px;
+}
+
+.botonAceptar {
+    margin-bottom: 90px;
+    z-index: 2;
+}
+
+.bgColorEsta {
+    background-color: #7C9E7E;
+
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+    // min-height: 100vh;
+}
+
+.w-90 {
+    width: 90%;
+    margin: auto;
+}
+
+
+.padd-top-25 {
+    padding-top: 25px;
+}
+
+.mar-top-25 {
+    margin-top: 50px !important;
+}
+
+
+
+//--------
+.holaDai {
+    position: relative;
+    // height: auto;
+    display: flex;
+    flex-direction: column;
+}

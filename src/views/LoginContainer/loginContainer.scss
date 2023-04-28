@@ -1,0 +1,33 @@
+@use '../../styles/colorGeneral';
+
+.login {
+    height: 100vh;
+
+    &__container {
+        background-color: #fff;
+        padding-top: 27px;
+        margin-top: 57px;
+
+        &-formulario {
+            margin: 20px 0;
+            padding-bottom: 50px;
+
+            .logOutButton {
+                margin-top: 30px;
+            }
+
+            .redesStyle {
+                padding-bottom: 20px;
+
+                &-item {
+                    margin: 0 15px;
+                    border: none;
+                    height: 54px;
+                    width: 62px;
+                    border-radius: 19px;
+                    background-color: colorGeneral.$colorSecundario;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.contenedorProx {
+    position: relative;
+    padding-top: 40px;
+    color: #fff;
+    justify-content: space-around;
+    z-index: 2;
+    height: 100vh;
+
+    &-titulo {
+        font-size: 36px;
+        z-index: 2;
+    }
+
+    &-txt {
+        font-weight: 300;
+        text-align: center;
+        width: 43%;
+        z-index: 2;
+        font-size: 16px;
+    }
+
+    img {
+        z-index: 2;
+    }
+
+    &-backbox {
+        background-color: #fff;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 40%;
+        border-radius: 25px 25px 0 0;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    }
+}
+
+.tituloError {
+    font-size: 54px;
+}
+
+.subError {
+    font-size: 26px;
+}

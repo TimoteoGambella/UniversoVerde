@@ -1,0 +1,14 @@
+.loaderStyle {
+    background-color: #fff;
+    padding-top: 60px;
+    height: 100vh;
+
+    &__container {
+        height: 100%;
+        justify-content: space-evenly;
+
+        img {
+            width: 60%;
+        }
+    }
+}

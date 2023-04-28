@@ -1,0 +1,23 @@
+.subtituloProductosBienestar {
+
+    width: 100%;
+    padding: 65px 20px 35px;
+    background-color: #fff;
+    position: relative;
+
+    img {
+        width: 64px;
+        height: 64px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    &__txt {
+        align-items: flex-start;
+        margin-left: 13px;
+
+        &-txtDescripcion {
+            width: 100%;
+        }
+    }
+}

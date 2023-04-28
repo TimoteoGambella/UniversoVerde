@@ -1,0 +1,33 @@
+.bienestarListStyle {
+    border-radius: 20px 20px 0 0;
+    margin-top: -25px;
+    position: relative;
+    padding-top: 25px;
+    height: 100vh;
+
+    &__container {
+        width: 330px;
+        background-color: #7C9E7E;
+        margin: 8px;
+
+        &-card {
+            width: 298px;
+            margin: 16px auto;
+            background-color: #CBDACE;
+            border-radius: 9px;
+
+            img {
+                margin: 7px;
+                width: 136px;
+            }
+
+            &-txt {
+                width: 100%;
+                background-color: #fff;
+                text-align: center;
+                padding: 12px;
+                border-radius: 0 0 9px 9px;
+            }
+        }
+    }
+}

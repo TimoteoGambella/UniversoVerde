@@ -1,0 +1,35 @@
+.cartFavSinProductos {
+    height: 100vh;
+
+    &__container {
+        background-color: #fff;
+        padding-top: 68px;
+        position: relative;
+        justify-content: space-between;
+
+        img {
+            width: 300px;
+
+        }
+
+        p {
+            margin-top: 20px;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        &-boton {
+            position: relative;
+            width: 100%;
+            padding-bottom: 40px;
+
+            span {
+                position: absolute;
+                bottom: 40px;
+                width: 100%;
+                height: 100%;
+                border-radius: 25px 25px 0 0;
+            }
+        }
+    }
+}

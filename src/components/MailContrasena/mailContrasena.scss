@@ -1,0 +1,48 @@
+@use '../../styles/colorGeneral';
+
+.modal-header,
+.modal-body,
+.recuperarContrasena__footer {
+    justify-content: center !important
+}
+
+.modal-body {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content-mg-top {
+    margin: 50px 0;
+    padding-bottom: 90px;
+}
+
+.recuperarContrasena {
+    &__container {
+        input {
+            margin: 6px 0;
+            padding: 5px;
+        }
+    }
+}
+
+.recuperarContrasena__footer {
+    input {
+        border: 0;
+        border-radius: 0.25em;
+        background-color: colorGeneral.$colorPrincipal;
+        color: #fff;
+        padding: 10px;
+    }
+
+    &-cancel {
+        border: 0;
+        border-radius: 0.25em;
+        background-color: colorGeneral.$colorPrincipal;
+        opacity: 40%;
+        color: #fff;
+        padding: 10px;
+        margin-right: 15px;
+    }
+}

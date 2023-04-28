@@ -1,0 +1,79 @@
+.homeContainer {
+
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 40px;
+
+
+    &__content {
+        width: 100%;
+        background-color: #ffff;
+        padding-bottom: 22px;
+        border-radius: 0 0 22px 22px;
+
+        img {
+            margin: auto;
+        }
+
+        &-menu {
+            padding-top: 16px;
+            justify-content: space-evenly;
+            align-items: flex-end;
+
+            a {
+                text-decoration: none;
+
+            }
+        }
+    }
+
+    &__accesos {
+        &-itemTitle {
+            color: #fff;
+            line-height: 15px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            margin: 0 auto 50px;
+            position: relative;
+            width: 80%;
+
+        }
+    }
+
+    &__items-homeItem {
+        justify-content: space-evenly;
+
+
+        &--link {
+            width: 90px;
+            height: 100px;
+            background-color: #fff;
+            position: relative;
+            border-radius: 4px;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.14),
+                0px 3px 14px rgba(0, 0, 0, 0.12),
+                0px 5px 5px rgba(0, 0, 0, 0.2);
+
+            img {
+                position: absolute;
+                top: -30px;
+                width: 65px;
+                height: 65px;
+                object-fit: cover;
+                border-radius: 50%;
+                box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.14),
+                    0px 3px 14px rgba(0, 0, 0, 0.12),
+                    0px 5px 5px rgba(0, 0, 0, 0.2);
+            }
+
+            &---txt {
+                position: absolute;
+                bottom: 23px;
+                text-align: center;
+                line-height: 15px;
+            }
+        }
+    }
+}

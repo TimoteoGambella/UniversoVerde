@@ -1,0 +1,51 @@
+@use '../../styles/colorGeneral';
+
+.tituloSesion {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.loginForm {
+    &-input {
+        border-color: #DADADA;
+        border-radius: 3.5px;
+
+        input {
+            padding: 15px;
+            margin-top: 20px;
+            width: 125%;
+
+            &:focus {
+                outline: none;
+                border-color: colorGeneral.$colorPrincipal;
+                ;
+                border-radius: 5.5px;
+            }
+        }
+    }
+}
+
+.crearRegistro {
+    &-registro {
+        margin: 13px;
+
+        &-boton {
+            margin-left: 4px;
+            font-weight: 700;
+            text-decoration: none;
+            color: #7C9E7E;
+            font-weight: 800;
+        }
+    }
+
+    &-recuperarContrasena {
+        margin: 10px;
+
+        &-boton {
+            border: none;
+            color: #7C9E7E;
+            background-color: transparent;
+        }
+    }
+}
